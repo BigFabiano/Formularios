@@ -122,7 +122,7 @@ input[type="submit"] {
   font-weight: bold;
   transition: 0.2s;
 }
-input[type="button"] {
+input[type="reset"] {
   cursor: pointer;
   border-radius: 5px;
   border: none;
@@ -141,7 +141,7 @@ input[type="submit"]:hover {
   color: #fff;
   transition: 0.2s;
 }
-input[type="button"]:hover {
+input[type="reset"]:hover {
   background: #069;
   color: #fff;
 }
