@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: slategray;
+}
+form {
+  background: #eee;
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid #069;
+  border-radius: 10px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.dadosPessoais {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+}
+.dadosPessoais #uf {
+  margin-left: 100px;
+}
+.bt {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.dadosF {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dadosS {
+  width: 60%;
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+fieldset {
+  border: none;
+  padding: 10px;
+}
+.dadosS > label {
+  margin: 0;
+  padding: 6px;
+}
+label {
+  margin-left: 100px;
+
+  padding: 10px;
+}
+input {
+  margin-left: 100px;
+  width: 70%;
+  padding: 10px;
+}
+h1 {
+  background: #069;
+}
+input,
+select {
+  border-radius: 8px;
+  height: 30px;
+  border: none;
+}
+input[type="submit"] {
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+  height: 35px;
+}
+input[type="button"] {
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+  height: 35px;
+}
+input[type="submit"]:hover {
+  background: #069;
+  color: #fff;
+}
+input[type="button"]:hover {
+  background: #069;
+  color: #fff;
+}
